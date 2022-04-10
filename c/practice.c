@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
     srand((unsigned int)time(NULL)); 
     enHands = rand()%3;
     printf("あなたの手:%s\n",str[myHands]);
-    printf("　私　の手:%s\n",str[enHands]);
+    printf("  私　の手:%s\n",str[enHands]);
 
     if((myHands==0&&enHands==1)||(myHands==1&&enHands==2)||(myHands==2&&enHands==0)){
         puts("あなたの勝ち");
